@@ -1,20 +1,20 @@
 ---
-title: Windows in gaspsUI
-description: Creating a Window in gaspsUI
+title: windows in gasps
+description: creating a window in gasps
 layout: ../layouts/MainLayout.astro
 ---
 
-## Creating a Window
+## creating a window
 
 ```lua
 local Window = Rayfield:CreateWindow({
-   Name = "gaspsUI Example Window",
-   LoadingTitle = "gaspsUI interface suite",
-   LoadingSubtitle = "by Sirius",
+   Name = "gasps example window",
+   LoadingTitle = "gasps interface suite",
+   LoadingSubtitle = "by sirius, gasps",
    ConfigurationSaving = {
       Enabled = true,
       FolderName = nil, -- Create a custom folder for your hub/game
-      FileName = "Big Hub"
+      FileName = "big hub"
    },
    Discord = {
       Enabled = false,
@@ -23,36 +23,36 @@ local Window = Rayfield:CreateWindow({
    },
    KeySystem = false, -- Set this to true to use our key system
    KeySettings = {
-      Title = "Sirius Hub",
-      Subtitle = "Key System",
-      Note = "Join the discord (discord.gg/sirius)",
-      FileName = "SiriusKey",
+      Title = "gasps hub",
+      Subtitle = "key system",
+      Note = "join the discord (discord.gg/sirius), (discord.gg/guilty)",
+      FileName = "gaspskey",
       SaveKey = true,
       GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-      Key = "Hello"
+      Key = "test"
    }
 })
 ```
 
-## Creating a Tab
+## creating a tab
 
 ```lua
-local Tab = Window:CreateTab("Tab Example", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("tab example", 4483362458) -- Title, Image
 ```
 
-## Creating a Section
+## creating a section
 
 ```lua
-local Section = Tab:CreateSection("Section Example")
+local Section = Tab:CreateSection("section example")
 ```
 
-### Updating a Section
+### updating a section
 
 ```lua
-Section:Set("Section Example")
+Section:Set("section example")
 ```
 
-## Destroying the Interface
+## destroying the interface
 
 ```lua
 Rayfield:Destroy()

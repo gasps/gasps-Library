@@ -1,29 +1,29 @@
 ---
-title: Textual elements in gaspsUI
-description: Creating textual elements in gaspsUI
+title: textual elements in gasps
+description: creating textual elements in gasps
 layout: ../layouts/MainLayout.astro
 ---
 
-## Creating a Label
+## creating a label
 
 ```lua
-local Label = Tab:CreateLabel("Label Example")
+local Label = Tab:CreateLabel("label example")
 ```
 
-### Updating a Label
+### updating a label
 
 ```lua
-Label:Set("Label Example")
+Label:Set("label example")
 ```
 
-## Creating a Paragraph
+## creating a paragraph
 
 ```lua
-local Paragraph = Tab:CreateParagraph({Title = "Paragraph Example", Content = "Paragraph Example"})
+local Paragraph = Tab:CreateParagraph({Title = "paragraph example", Content = "paragraph example"})
 ```
 
-### Updating a Paragraph
+### updating a paragraph
 
 ```lua
-Paragraph:Set({Title = "Paragraph Example", Content = "Paragraph Example"})
+Paragraph:Set({Title = "paragraph example", Content = "paragraph example"})
 ```

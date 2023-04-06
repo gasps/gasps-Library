@@ -1,14 +1,14 @@
 ---
-title: Binding keys in gaspsUI
-description: Creating a Keybind in gaspsUI
+title: binding keys in gasps
+description: creating a keybind in gasps
 layout: ../layouts/MainLayout.astro
 ---
 
-## Creating a Keybind
+## creating a keybind
 
 ```lua
 local Keybind = Tab:CreateKeybind({
-   Name = "Keybind Example",
+   Name = "keybind example",
    CurrentKeybind = "Q",
    HoldToInteract = false,
    Flag = "Keybind1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
@@ -19,8 +19,8 @@ local Keybind = Tab:CreateKeybind({
 })
 ```
 
-### Updating a Keybind
+### updating a keybind
 
 ```lua
-Keybind:Set("RightCtrl") -- Keybind (string)
+Keybind:Set("rightctrl") -- Keybind (string)
 ```

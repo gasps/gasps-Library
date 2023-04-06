@@ -1,32 +1,36 @@
 ---
-title: Introduction
-description: The official gasps UI suite documentation
+title: introduction
+description: the official gasps suite documentation
 layout: ../layouts/MainLayout.astro
 ---
 
-[![image](https://user-images.githubusercontent.com/77512805/209696209-dc87560f-8e55-407e-a5df-31ec31381c51.png)](https://discord.gg/sirius)
+[![image](https://user-images.githubusercontent.com/60119170/230508357-c63ba404-d0a7-4183-9aa1-782a2f54240e.png)](https://discord.gg/guilty)
 
-This is the written documentation for gaspsUI interface suite.
+this is the written documentation for gasps interface suite by siriusdevelopemnt, thank you guys.
 
-Last updated for the Beta 1 release
+## Rayfield Docs - [https://github.com/SiriusDevelopmentGroup/rayfield-docs]
 
-## Why choose gaspsUI?
+## shlexware - [https://github.com/shlexware]
 
-- ⚖️ **Reliable and Stable**
-- 🆕 **Frequently Updated**
-- 🔓 **Open Sourced**
-- ⚙️ **Advanced features like**
-- **Just a renamed UI lib lol**
-- **hopefully i wont get in trouble but i gave credit :shrug:**
+last updated for beta r7 release
 
-  - 🔑 **Key System**
-  - 🔗 **Discord Auto Joins**
-  - 🔔 **Notifications with actions**
+## why choose gasps?
 
-- 💃 **Amazing perfomance while having under 2.5k lines of code!**
+- ⚖️ **reliable and stable**
+- 🆕 **frequently updated**
+- 🔓 **open sourced**
+- ⚙️ **advanced features like**
 
-## Getting Started
+  - **hub feature and script list**
+  - 🔑 **key system**
+  - 🔗 **discord Auto Joins**
+  - 🔔 **notifications with actions**
 
-To get started with gaspsUI, check out the sidebar at the left. It provides quick links on how to use all of the Rayfield features for your own project. Keep this documentation around so that you can always refer back to it as you build.
+- 💃 **amazing perfomance while having under 2.5k lines of code!**
 
-Found a missing feature that you can't live without? Please suggest it on Discord [(#sirius-forums channel)](https://discord.gg/sirius) and even consider adding it yourself on GitHub! Rayfield is an open source project and contributions from developers like you are more than welcome!
+
+## getting started
+
+to get started with gasps, check out the sidebar at the left. it provides quick links on how to use all of the rayfield features for your own project. keep this documentation around so that you can always refer back to it as you build.
+
+ - source code & updates are from rayfield github & alexr32/parvus github

@@ -1,30 +1,30 @@
 ---
-title: Loading the Rayfield Library
-description: Booting the Rayfield Library
+title: loading the gasps library
+description: booting the gasps library
 layout: ../layouts/MainLayout.astro
 ---
 
-## Booting the Library
+## booting the library
 
 ```lua
-local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+local gasps = loadstring(game:HttpGet('https://raw.githubusercontent.com/gasps/gaspsUI/main/source'))()
 ```
 
-### Secure Mode
+### secure mode
 
-If the game you're trying to run Rayfield Interface Suite on, is detecting or crashing when you use Rayfield Interface Suite, try using Secure Mode:
+if the game you're trying to run gasps interface suite on, is detecting or crashing when you use gasps interface suite, try using secure mode:
 
-- Place `getgenv().SecureMode = true` above the initial Rayfield loadstring
+- place `getgenv().securemode = true` above the initial gasps loadstring
 
-Rayfield will now use Secure Mode and attempt to reduce detection
+gasps will now use secure mode and attempt to reduce detection
 
-- Note: This may cause some elements of the UI to look lower quality or may increase loading times slightly
+- note: this may cause some elements of the ui to look lower quality or may increase loading times slightly
 
-### Enabling Configuration Saving
+### enabling configuration saving
 
-- Enable ConfigurationSaving in the CreateWindow function
-- Choose an appropiate FileName in the CreateWindow function
-- Choose an unique flag identifier for each supported element you create
-- Place `Rayfield:LoadConfiguration()` at the bottom of all your code
+- enable configurationsaving in the createwindow function
+- choose an appropiate filename in the createwindow function
+- choose an unique flag identifier for each supported element you create
+- place `gasps:Loadconfiguration()` at the bottom of all your code
 
-Rayfield will now automatically save and load your configuration
+gasps will now automatically save and load your configuration
