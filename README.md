@@ -3,7 +3,7 @@
 *** THIS PRODUCT IS NOT BEING SOLD OR REDISTRUBITED / ALL CREDIT IS GIVEN IN README/DOCS ***
 
 
-This is the written documentation for gasps interface suite by siriusdevelopemnt, thank you guys.
+This is the written documentation for gasps interface suite by siriusdevelopement, thank you guys.
 
 ## Rayfield Docs - [https://github.com/SiriusDevelopmentGroup/rayfield-docs]
 
