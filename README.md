@@ -1,4 +1,4 @@
-[![image](![image](https://user-images.githubusercontent.com/60119170/230508133-7dc91571-8cb7-4c08-bf17-490dec826021.png))](https://discord.gg/guilty)
+(![image](https://user-images.githubusercontent.com/60119170/230508275-b6a763f4-a054-4c6f-82ae-eee9c06078a4.png))](https://discord.gg/sirius)
 
 written documentation for gasps UI suite - credits to Sirius
 
