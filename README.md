@@ -1,10 +1,9 @@
-[![image](https://user-images.githubusercontent.com/77512805/209696209-dc87560f-8e55-407e-a5df-31ec31381c51.png)](https://discord.gg/sirius)
+[![image](![image](https://user-images.githubusercontent.com/60119170/230508133-7dc91571-8cb7-4c08-bf17-490dec826021.png))](https://discord.gg/guilty)
 
-This is the written documentation for Rayfield Interface Suite.
+written documentation for gasps UI suite - credits to Sirius
 
-Last updated for the Beta 7R release
-
-## Why choose Rayfield?
+NULL
+## Why choose gasps?
 
 - ⚖️ **Reliable and Stable**
 - 🆕 **Frequently Updated**
