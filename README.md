@@ -1,5 +1,4 @@
-![image](https://user-images.githubusercontent.com/60119170/230508275-b6a763f4-a054-4c6f-82ae-eee9c06078a4.png](https://discord.gg/sirius)
-
+![image](https://user-images.githubusercontent.com/60119170/230508357-c63ba404-d0a7-4183-9aa1-782a2f54240e.png)(https://discord.gg/guilty)
 written documentation for gasps UI suite - credits to Sirius
 
 NULL
