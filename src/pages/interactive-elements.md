@@ -1,50 +1,50 @@
 ---
-title: adding interactive elements
-description: adding interactive elements to your gasps window
+title: Adding interactive elements
+description: Adding interactive elements to your Rayfield window
 layout: ../layouts/MainLayout.astro
 ---
 
-## notifying the user
+## Notifying the user
 
 ```lua
-gasps:Notify({
-   Title = "notification title",
-   Content = "notification content",
+Rayfield:Notify({
+   Title = "Notification Title",
+   Content = "Notification Content",
    Duration = 6.5,
    Image = 4483362458,
    Actions = { -- Notification Buttons
       Ignore = {
-         Name = "okay",
+         Name = "Okay!",
          Callback = function()
-         print("the user tapped 'okay'")
+         print("The user tapped Okay!")
       end
    },
 },
 })
 ```
 
-## creating a button
+## Creating a Button
 
 ```lua
 local Button = Tab:CreateButton({
-   Name = "button example",
+   Name = "Button Example",
    Callback = function()
    -- The function that takes place when the button is pressed
    end,
 })
 ```
 
-### updating a button
+### Updating a Button
 
 ```lua
-Button:Set("button example")
+Button:Set("Button Example")
 ```
 
-### updating a button
+## Creating a Toggle
 
 ```lua
 local Toggle = Tab:CreateToggle({
-   Name = "toggle example",
+   Name = "Toggle Example",
    CurrentValue = false,
    Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
    Callback = function(Value)
@@ -54,17 +54,17 @@ local Toggle = Tab:CreateToggle({
 })
 ```
 
-### updating a button
+### Updating a Toggle
 
 ```lua
 Toggle:Set(false)
 ```
 
-## creating a color picker
+## Creating a Color Picker
 
 ```lua
 local ColorPicker = Tab:CreateColorPicker({
-    Name = "color picker",
+    Name = "Color Picker",
     Color = Color3.fromRGB(255,255,255),
     Flag = "ColorPicker1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
     Callback = function(Value)
@@ -74,20 +74,20 @@ local ColorPicker = Tab:CreateColorPicker({
 })
 ```
 
-### updating a color picker
+### Updating a Color Picker
 
 ```lua
 ColorPicker:Set(Color3.fromRGB(255,255,255)
 ```
 
-## creating a slider
+## Creating a Slider
 
 ```lua
 local Slider = Tab:CreateSlider({
-   Name = "slider example",
+   Name = "Slider Example",
    Range = {0, 100},
    Increment = 10,
-   Suffix = "marijuana",
+   Suffix = "Bananas",
    CurrentValue = 10,
    Flag = "Slider1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
    Callback = function(Value)
@@ -97,18 +97,18 @@ local Slider = Tab:CreateSlider({
 })
 ```
 
-### updating a slider
+### Updating a Slider
 
 ```lua
 Slider:Set(10) -- The new slider integer value
 ```
 
-## creating an adaptive input (textbox)
+## Creating an Adaptive Input (TextBox)
 
 ```lua
 local Input = Tab:CreateInput({
-   Name = "input example",
-   PlaceholderText = "input placeholder",
+   Name = "Input Example",
+   PlaceholderText = "Input Placeholder",
    RemoveTextAfterFocusLost = false,
    Callback = function(Text)
    -- The function that takes place when the input is changed
@@ -117,28 +117,29 @@ local Input = Tab:CreateInput({
 })
 ```
 
-## creating a dropdown menu
+## Creating a Dropdown menu
 
 ```lua
 local Dropdown = Tab:CreateDropdown({
-   Name = "dropdown example",
-   Options = {"option 1","option 2"},
-   CurrentOption = "option 1",
+   Name = "Dropdown Example",
+   Options = {"Option 1","Option 2"},
+   CurrentOption = {"Option 1"},
+   MultipleOptions = false,
    Flag = "Dropdown1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
    Callback = function(Option)
    -- The function that takes place when the selected option is changed
-   -- The variable (Option) is a string for the value that the dropdown was changed to
+   -- The variable (Option) is a table of strings for the current selected options
    end,
 })
 ```
 
-### updating a dropdown
+### Updating a Dropdown
 
 ```lua
-Dropdown:Set("option 2") -- The new option value
+Dropdown:Set({"Option 2"}) -- The new list of options
 ```
 
-## check the value of an existing element
+## Check the value of an existing element
 
 To check the current value of an existing element, using the variable, you can do `ElementName.CurrentValue`, if it's a keybind or dropdown, you will need to use `KeybindName.CurrentKeybind` or `DropdownName.CurrentOption`
-You can also check it via the flags from `gasps.Flags`
+You can also check it via the flags from `Rayfield.Flags`
