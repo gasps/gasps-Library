@@ -1,7 +1,7 @@
-
-
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?duration=3000&center=true&width=450&lines=gasps%20Library;)](gasps.top)
 
+
+[![image](https://user-images.githubusercontent.com/60119170/230508357-c63ba404-d0a7-4183-9aa1-782a2f54240e.png)](https://discord.gg/guilty)
 
 This is the written documentation for gasps interface suite by siriusdevelopemnt, thank you guys.
 
